@@ -2203,7 +2203,7 @@ sequelize-pool@^7.1.0:
 
 sequelize@^6.20.1:
   version "6.20.1"
-  resolved "https://registry.npmjs.org/sequelize/-/sequelize-6.20.1.tgz"
+  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-6.20.1.tgz#1c796fa9134e46fefd9509e6e8ac947131b214ba"
   integrity sha512-1YBMv++Yy1JBFFiac1Xoa+Km5qV6YI1ckdkW0xyD7IpLMtE5JmjgZdZXGfwgRUNjhaKMxdzT+nkvJgeXO0rv/g==
   dependencies:
     "@types/debug" "^4.1.7"
