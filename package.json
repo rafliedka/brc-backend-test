@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node -r dotenv/config bin/www",
+    "eslint": "eslint . --ext .js --fix",
+    "test": "jest",
     "develop": "nodemon -r dotenv/config bin/www",
     "db:create": "sequelize db:create",
     "db:drop": "sequelize db:drop",
@@ -25,6 +27,8 @@
     "swagger-ui-express": "^4.4.0"
   },
   "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-plugin-react": "^7.30.0",
     "nodemon": "^2.0.16"
   }
 }
